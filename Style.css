@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: rgb(195, 230, 212);
+    color: #010000;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5rem 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container .imagesection {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.educationskills{
+    /* padding: 2rem; */
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+}
+.hero {
+    flex: 1 1 60%;
+}
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin: 1.5rem;
+}
+.hero h1 {
+    margin: 1rem 0 0.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+    width: 70%;
+}
+.section {
+    margin: 3rem 2rem;
+}
+.section h2 {
+    color: #333;
+    border-bottom: 2px solid #444;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+footer {
+    text-align: center;
+    background: rgb(195, 230, 212);
+    color: #000;
+    padding: 1rem 0;
+}
+.social a {
+    /* margin: 0 0.5rem; */
+    color: black;
+    text-decoration: none;
+}
+.section1{
+    margin: 2rem;
+    margin-top: 30px;
+    width: 30%;
+}
+#certification{
+    width: 24%;
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* width: 30%; */
+}
+.resume {
+    text-align: center;
+    /* margin: 5rem 0; */
+}
+.resume a {
+    text-decoration: none;
+    background: #444;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.resume a:hover {
+    background: #555;
+}
+#para{
+    text-align: justify;
+    
+}
+.socialimg{
+    width: 30px;
+}
+#contact a{
+    color: #000;
+    text-decoration: none;
+}
